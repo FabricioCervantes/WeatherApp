@@ -73,3 +73,17 @@ input {
 .city {
     margin-bottom: 1rem;
 }
+
+.description {
+    text-transform: capitalize;
+}
+
+.icon-description {
+    display: flex;
+    align-items: center;
+    margin-left: -8px;
+}
+
+.weather.loading {
+    visibility: hidden;
+}
